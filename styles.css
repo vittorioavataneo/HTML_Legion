@@ -1,0 +1,9 @@
+body{
+    background-image: url('/immagini/not_found.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cinzel', serif;
+}
+.links a{
+    color: white;
+}

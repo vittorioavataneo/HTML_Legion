@@ -1,0 +1,107 @@
+body{
+    font-family: 'Cinzel', serif;
+}
+#container{
+    background-image: url('/immagini/sfondo_home.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position: center 40%;
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+p{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    padding: 0.5cm;
+    
+}
+.links{
+    justify-content: flex-end;
+    display: flex;
+    flex: 2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 30%;
+}
+.logo{
+    flex: 1;
+}
+.log{
+    margin: 3px;
+    background-color: rgb(220, 155, 34);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 2cm;
+    font-size: 2.5em;
+}
+h2{
+    text-align: center;
+}
+button{
+    background-color: rgb(220, 155, 34);
+    border-radius: 10px; 
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+.card{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 115px;
+    box-shadow: 1px 1px 1px black;
+    background-color: white;
+}
+.card_image{
+    width: 100%;
+}
+.card_description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+    margin-top: 5cm;
+    background-color: transparent;
+}
+h3{
+    float: left;
+}
+#logo_footer{
+    width: 5%;
+    display: block;
+}
+h4{
+    float: right;
+}
+.icons{
+    width: 2%;
+    float: right;
+}
+#policy{
+    margin-top: 1cm;
+    font-size: 0.8em;
+}
+#img_main{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3cm;
+}
