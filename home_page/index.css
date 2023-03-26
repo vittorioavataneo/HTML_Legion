@@ -1,12 +1,12 @@
 body{
     font-family: 'Cinzel', serif;
+    font-weight: 800;
 }
 #container{
-    background-image: url('/immagini/sfondo_home.jpg');
+    background-image: url('/immagini/sfondo_colonne.jpeg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-size: 100%;
-    background-position: center 40%;
+    background-position-x: center;
 }
 nav{
     background-color: transparent;
@@ -40,19 +40,22 @@ a{
 }
 .log{
     margin: 3px;
-    background-color: rgb(220, 155, 34);
+    background-color: rgb(138, 111, 61);
     border-radius: 10px;
 }
 h1{
     text-align: center;
-    margin-top: 2cm;
-    font-size: 2.5em;
+    margin-top: 4cm;
+    margin-bottom: 8cm;
+    margin-left: 20cm;
+    margin-right: 2cm;
+    font-size: 3em;
 }
 h2{
     text-align: center;
 }
 button{
-    background-color: rgb(220, 155, 34);
+    background-color: rgb(138, 111, 61);
     border-radius: 10px; 
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
@@ -62,16 +65,17 @@ button{
 }
 .card{
     width: 350px;
-    border: 1px solid black;
+    border: 1px solid rgb(71, 52, 19);
     border-radius: 10px;
     display: inline-block;
     padding: 10px;
     margin-left: 115px;
-    box-shadow: 1px 1px 1px black;
-    background-color: white;
+    box-shadow: 1px 1px 1px rgb(71, 52, 19);
+    background-color: rgb(216, 201, 174);
 }
 .card_image{
     width: 100%;
+    border-radius: 10px;
 }
 .card_description{
     text-align: center;
