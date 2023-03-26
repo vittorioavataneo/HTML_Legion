@@ -6,7 +6,7 @@ body{
     background-image: url('/immagini/sfondo_colonne.jpeg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-position-x: center;
+
 }
 nav{
     background-color: transparent;
@@ -27,25 +27,32 @@ li{
     justify-content: flex-end;
     display: flex;
     flex: 2;
+    margin-top: -3.5cm;
+    margin-right: 1cm;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 a{
     text-decoration: none;
     color: black;
 }
 #logo{
-    width: 30%;
+    width: 50%;
 }
 .logo{
     flex: 1;
 }
 .log{
-    margin: 3px;
+    margin: 10px;
     background-color: rgb(138, 111, 61);
     border-radius: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    margin-top: -3.9cm;
 }
 h1{
     text-align: center;
-    margin-top: 4cm;
+    margin-top: 2.3cm;
     margin-bottom: 8cm;
     margin-left: 20cm;
     margin-right: 2cm;
@@ -54,7 +61,7 @@ h1{
 h2{
     text-align: center;
 }
-button{
+.find{
     background-color: rgb(138, 111, 61);
     border-radius: 10px; 
     font-family: 'Cinzel', serif;
@@ -89,7 +96,7 @@ h3{
     float: left;
 }
 #logo_footer{
-    width: 5%;
+    width: 7%;
     display: block;
 }
 h4{
